@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/linearLayout">
+    <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textColor="@color/colorBackground"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+            android:id="@+id/textViewRegno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regno"
+            android:textColor="@color/colorBackground"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+            android:id="@+id/textViewCgpaRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPARANK"
+            android:textColor="@color/colorBackground"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/colorBackground"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/textViewRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room"
+        android:textColor="@color/colorBackground"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/textViewBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Block"
+        android:textColor="@color/colorBackground"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+            android:id="@+id/textViewAcnonac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acnonac"
+            android:textColor="@color/colorBackground"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+</LinearLayout>
